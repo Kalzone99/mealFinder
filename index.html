@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="background">
+      <div id="modal" class="modal">
+        <div class="modal-content">
+          <span id="close" class="close">&times;</span>
+          <div id="titleMod"> 
+          <h2 id="modal-title"></h2>
+        </div>
+        <div class="ingrRecipe">
+        <div id="ingrMod">
+          <h3>Ingredients</h3>
+          <ul id="ingredients-list"></ul>
+        </div>
+        <div id="recipeMod">
+          <h3>Recipe</h3>
+          <p id="recipe-text"></p>
+        </div>
+        </div>
+        </div>
+      </div>
+      <div>
+        <div class="container_2">
+          <div id="look">
+            <label for="search" name="search">Enter a recipe related item:  </label>
+            <input type="text" id="search" placeholder="enter meal" />
+            <button id="btn_2">Search</button>
+          </div>
+          <div id="addedText"></div>
+          <!-- <select id="mealsDropdown"></select> -->
+        </div>
+      </div >
+      <div class="photobook">
+      <div id="thumb"><div id="thumbText"></div></div>
+      
+      
+      </div>
+      <button id="reset">Reset</button>
+      
+
+    <script src="./app.js"></script>
+  </body>
+</html>
